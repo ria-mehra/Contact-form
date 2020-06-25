@@ -1,0 +1,9 @@
+language: go
+go:
+  - tip
+deploy:
+  provider: heroku
+  buildpack: https://github.com/kr/heroku-buildpack-go.git
+  api_key:
+    secure: <your heroku api key encripted with travis encrypt>
+  on: master 
