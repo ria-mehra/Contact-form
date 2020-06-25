@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/RiaMehra/webapphr",
+	"GoVersion": "go1.14",
+	"GodepVersion": "v80",
+	"Deps": []
+}
